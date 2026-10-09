@@ -1,0 +1,8 @@
+Mivel az éles weboldalt próbáljuk tesztelni, a rendszer felismeri, hogy a böngészőt egy tesztelő program vezérli, nem pedig egy igazi ember. 
+Ezért a weboldal azonnal letiltja a hozzáférést (403-as hiba) vagy feladja a "Nem vagyok robot" ellenőrzést.
+
+A regisztráció a való életben csak akkor válik teljessé, ha a megadott e-mail fiókba belépve rákattintunk a kiküldött aktiváló linkre. 
+Ezt pusztán a weboldal kattintgatásával az automata nem tudja elvégezni.
+
+Ha az éles oldalon futtatjuk a teszteket, 
+minden egyes tesztfuttatással újabb és újabb felesleges tesztfiókokat hozunk létre a cég valódi adatbázisában.

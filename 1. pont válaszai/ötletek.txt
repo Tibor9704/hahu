@@ -1,0 +1,11 @@
+A teszteket nem az éles, vásárlók által használt oldalon kell futtatni, hanem a fejlesztők által biztosított zárt tesztoldalon. 
+Itt a robot elleni védelmet és a CAPTCHA-t ki lehet kapcsolni a tesztelő programok számára.
+
+A fejlesztők beállíthatnak egy olyan rejtett fejlécet, amit ha a tesztelő program beküld a kéréssel, 
+a biztonsági rendszer felismeri, hogy mi vagyunk azok, és CAPTCHA nélkül beenged az oldalra.
+
+Be lehet kötni egy olyan intelligens e-mail szolgáltatást, amihez a tesztelő program hozzáfér. 
+Így a teszt ki tudja olvasni a megérkező e-mailt, és automatikusan rá tud kattintani a regisztrációt aktiváló linkre.
+
+A tesztek lefutása után a tesztelő program egy közvetlen API hívással azonnal le is törölheti a létrehozott tesztfiókot, 
+így nem marad adatszemét a rendszerben.

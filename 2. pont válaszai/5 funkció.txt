@@ -1,0 +1,10 @@
+Nem bejelentkezett látogatóként a "Parkolóba" gombra kattintva megnézzük, 
+hogy felugrik-e a bejelentkezési ablak, ami kéri a belépést.
+
+A telefonszám alapból ki van takarva. A "Elsődleges telefonszám felfedése" gombra kattintva megjelennek-e a hiányzó számjegyek.
+
+A nyilakra kattintva cserélődik-e a főkép, illetve a képre kattintva megnyílik-e a teljes képernyős galéria nézet.
+
+Az önrész vagy futamidő csúszka állításakor dinamikusan frissül-e a havi törlesztőrészlet összege.
+
+A megosztás gombra kattintva felugrik-e a megosztási ablak, vagy vágólapra másolja-e a hirdetés közvetlen hivatkozását.

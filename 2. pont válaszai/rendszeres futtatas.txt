@@ -1,0 +1,11 @@
+Az eladott autókat törlik az oldalról, így a tesztben nem egy fix URL-re kell navigálni, 
+hanem a keresőoldalról mindig automatikusan a legfelső aktív hirdetést kell megnyitni.
+
+Ha bejelentkezett felhasználóként akarjuk tesztelni a parkoló funkciót, 
+a teszt előtt el kell menteni a bejelentkezési munkamenetet.
+
+A gombra kattintáskor a háttérben lefutó kérést meg kell várnia a tesztnek, 
+mielőtt felületet ellenőriz.
+
+Az oldalon a stílusok változhatnak, 
+ezért a törékeny class nevek helyett egyedi attribútumokat kell használni a tesztben.
